@@ -118,19 +118,16 @@ button {
 }
 
 .event-summary__info {
-	width: 100%;
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
+	width: 500px;
 	margin-top: 9px;
 }
 
 .event-summary__info__keypoints {
-	max-width: 740px;
+	width: 100%;
 }
 
 .event__keypoint {
-	max-width: 470px;
+	width: 100%;
 	display: flex;
 	justify-content: flex-start;
 	align-items: center;
@@ -146,21 +143,18 @@ button {
 	width: 49px;
 	height: 29px;
 	background-repeat: no-repeat;
-	align-self: flex-end;
+	align-self: flex-start;
+	margin-top: 13px;
+	padding: 0 15px;
 }
 
-.keypoint__marker_yellow {
-	background-image: url("./assets/images/marker_yellow.png");
-}
-
-.keypoint__marker_white {
-	background-image: url("./assets/images/marker_white.png");
+.event__keypoint__marker_white {
+	margin-top: 8px;
+	padding: 0 17px;
 }
 
 .event__keypoint__text {
 	padding: 0;
-	width: 318px;
-	height: 44px;
 	color: #ffffff;
 	font-family: "Mont-SemiBold";
 	font-size: 18px;
@@ -169,21 +163,16 @@ button {
 	letter-spacing: 0.15882353px;
 }
 
-.text_yellow {
+
+.event__keypoint__text_yellow {
 	color: #d9ec86;
-}
-
-.event-summary__info__keypoints:first-child .event__keypoint__text {
-	height: 15px;
-}
-
-.event__keypoint_3__text {
+	align-self: start ;
 	height: 28px;
 	width: 435px;
 	font-family: "Mont-Regular";
 	font-size: 16px;
 	font-weight: 400;
-	line-height: 27px;
+	line-height: 20px;
 	letter-spacing: 0.14117648px;
 }
 
@@ -191,7 +180,9 @@ button {
 	width: 364px;
 	height: 125px;
 	padding-top: 40px;
-	position: relative;
+	position: absolute;
+	right: 524px;
+	top: 303px;
 }
 
 .event__date-border {
@@ -590,10 +581,10 @@ button {
 	background: #d9fcff;
 	border-radius: 50%;
 	position: absolute;
-	background-size: 33px 36px;
+	background-size: 24px 36px;
 	background-repeat: no-repeat;
 	background-image: url("./assets/images/marker_blue.png");
-	background-position: 17px 12px;
+	background-position: 20px 12px;
 }
 
 .quote_1__marker {
