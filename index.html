@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>LP FOrrester v2</title>
+</head>
+<body>
+    <div class="main-container">
+        <section class="top-section">
+            <img class="main-logo" src="./assets/images/formation_logo.png" alt="Formation Logo"></img>
+            <div class="event-summary">
+                <h2 class="event-summary__type">Premium event</h2>
+                <h2 class="event-summary__name">State of Offer Relevancy 2021</h2>
+                <div class="event-summary__info">
+                    <div class="event-summary__info__keypoints">
+                        <div class="event__keypoint">
+                            <div class="event__keypoint__marker keypoint__marker_yellow"></div>
+                            <span class="event__keypoint__text">A survey of 300 B2C brands and 1000 consumers</span>
+                        </div>
+                        <div class="event__keypoint">
+                            <div class="event__keypoint__marker keypoint__marker_yellow"></div>
+                            <span class="event__keypoint__text">Forrester Research</span>
+                        </div>
+                        <div class="event__keypoint">
+                            <div class="event__keypoint__marker keypoint__marker_white"></div>
+                            <span class="event__keypoint__text text_yellow event__keypoint_3__text">Attendees get early access to this Forrester Report </span>
+                        </div>
+                    </div>
+                    <div class="event-summary__info__date">
+                        <p class="event__date">Wednesday, May 19, 2021<br/>11:00am PT</p>
+                        <div class="event__date-border"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="dotted-area"></div>
+            <form class="event-register" action="#" id="register">
+                <h3 class="event-register__header">Attend this Event!</h3>
+                <div class="event-register__inputs">
+                    <div class="event-register__input-item event-register__input-item_short">
+                        <img src="./assets/images/icon_first_name.png" alt="First name">
+                        <input type="text" id="name" placeholder="First name" minlength="2" maxlength="25" required>
+                    </div>
+                    <div class="event-register__input-item event-register__input-item_short">
+                        <img src="./assets/images/icon_first_name.png" alt="Last name">
+                        <input type="text" id="name" placeholder="Last name" minlength="2" maxlength="25" required>
+                    </div>
+                    <div class="event-register__input-item">
+                        <img src="./assets/images/icon_title.png" alt="Title">
+                        <input type="text" id="title" placeholder="Enter title" minlength="2" maxlength="15" required>
+                    </div>
+                    <div class="event-register__input-item">
+                        <img src="./assets/images/icon_email.png" alt="Email">
+                        <input type="email" id="email" placeholder="Enter business email" minlength="6" maxlength="60" required>
+                    </div>
+                    <div class="event-register__input-item">
+                        <img src="./assets/images/icon_company.png" alt="Company">
+                        <input type="text" id="company" placeholder="Enter company name" required>
+                    </div>
+                    <div class="event-register__input-item">
+                        <img src="./assets/images/icon_country.png" alt="Country">
+                        <select id="country" required>
+                            <option value="" disabled selected>Select Country</option>
+                            <option value="Russia">Russia</option>
+                            <option value="NeRussia">Ne Russia :)</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="event-register__button_submit">REGISTER ME NOW</button>
+                </div>
+            </form>
+        </section>
+        <section class="sponsor-logos">
+            <img class="sponsor-logo-1" src="./assets/images/logo_forrester.png" alt="Forrester Logo">
+            <img class="sponsor-logo-2 color-logo" src="./assets/images/logo_giant_eagle.png" alt="Giant Eagle Logo">
+            <img class="sponsor-logo-3 color-logo" src="./assets/images/logo_united_airlines.png" alt="United Airlines Logo">
+            <img class="sponsor-logo-4" src="./assets/images/logo_pollo_zoco.png" alt="Pollo Zoco Logo">
+            <img class="sponsor-logo-5" src="./assets/images/formation_logo_black.png" alt="Formation Logo">
+            <img class="sponsor-logo-6" src="./assets/images/logo_loyalty_innovators.png" alt="Loyalty Innovators Logo">
+        </section>
+        <section class="offer">
+            <h2 class="offer__header">The Offer Relevancy Gap</h2>
+            <p class="offer__description">Brands send millions of communications and spend billions of dollars on offers each year to engage customers. Yet customer engagement is still falling short, with two-thirds of consumers stating that the offers brands send them are not relevant to their needs.</p>
+            <div class="offer__chart">
+                <div class="chart__step-1">
+                    <p class="chart__step-header">83%</p>
+                    <p class="chart__step-description">of consumers will buy from brands that send relevant offers</p>
+                </div>
+                <img class="chart__arrow-1" src="./assets/images/arrow_and.png" alt=" Arrow 'AND'">
+                <div class="chart__step-2">
+                    <p class="chart__step-header">92%</p>
+                    <p class="chart__step-description">of companies believe the offers are relevant</p>
+                </div>
+                <img class="chart__arrow-2" src="./assets/images/arrow_but.png" alt=" Arrow 'BUT'">
+                <div class="chart__step-3">
+                    <p class="chart__step-description">only</p>
+                    <p class="chart__step-header">33%</p>
+                    <p class="chart__step-description">of offers are considered relevant by consumers</p>
+                </div>
+                <img class="chart__arrow-3" src="./assets/images/arrow_go.png" alt=" Arrow 'GO'">
+                <div class="chart__step-4">
+                    <p class="chart__step-header">71%</p>
+                    <p class="chart__step-description">of brands plan to invest in offer optimization technology</p>
+                </div>
+            </div>
+            <!--<div class="offer__background-paths offer__background-path-1">1</div>
+            <div class="offer__background-paths offer__background-path-2">2</div>
+            <div class="offer__background-paths offer__background-path-3">3</div>
+            <div class="offer__background-paths offer__background-path-4">4</div> -->
+            <div class="offer__quote offer__quote_1" title="Andy Rebhun">
+                <p class="offer__quote__text">"Brands must do a better job of following data and relying on analytics to optimize future growth. Loyalty programs need to be more than just a discounting device and truly build a connection with the consumer well beyond the transactional.”</p>
+                <div class="offer__quote__author offer__quote_1__author">
+                    <span class="quote__author__name">Andy Rebhun</span><br />
+                    <span class="quote__author__post">VP, Digital Officer</span>
+                </div>
+                <div class="quote__marker quote_1__marker"></div>
+            </div>
+            <div class="offer__quote offer__quote_2">
+                <p class="offer__quote__text">“Ensure you are delivering equivalent & relevant value to your customers in exchange for their priceless data. Loyalty & marketing strategies must be data-driven & customer-led, not business-first.”</p>
+                <div class="offer__quote__author offer__quote_2__author">
+                    <span class="quote__author__name">Jenna O’Connor</span><br />
+                    <span class="quote__author__post">Director, Loyalty</span>
+                </div>
+                <div class="quote__marker quote_2__marker"></div>
+            </div>
+            <div class="offer__quote offer__quote_3">
+                <p class="offer__quote__text">“Don’t create offers, create relationships. By creating relevant and timely offers that are based on customers preferences, we can build better opportunities for brand loyalty.”</p>
+                <div class="offer__quote__author offer__quote_3__author">
+                    <span class="quote__author__name">Christopher Gumprecht</span><br />
+                    <span class="quote__author__post">VP, GUEST TECHNOLOGY</span>
+                </div>
+                <div class="quote__marker quote_3__marker"></div>
+            </div>
+            <div class="quotes__marker quotes__marker_left"></div>
+            <div class="quotes__marker quotes__marker_right"></div>
+        </section>
+        <section class="panel">
+            <h2 class="panel__header">Exclusive Panel Discussion</h2>
+            <div class="panel__speakers">
+                <div class="panel__speaker">
+                    <div class="speaker__photo__container">
+                        <img class="panel__speaker__photo panel__speaker__photo-1" src="./assets/images/andrew_rebhun.png" alt="Andrew Rebhun">
+                    </div>
+                    <p class="panel__speaker__name">Andrew Rebhun</p>
+                    <p class="panel__speaker__info">VP<br>Digital Officer<br><span class='panel__text_emphasis'>El Pollo Loco</span></p>
+                </div>
+                <div class="panel__speaker">
+                    <div class="speaker__photo__container">
+                        <img class="panel__speaker__photo panel__speaker__photo-2" src="./assets/images/emily_collins.png" alt="Emily Collins">
+                    </div>
+                    <p class="panel__speaker__name">Emily Collins</p>
+                    <p class="panel__speaker__info">VP<br>Research Director<br><span class='panel__text_emphasis'>Forrester</span></p>
+                </div>
+                <div class="panel__speaker">
+                    <div class="speaker__photo__container">
+                        <img class="panel__speaker__photo panel__speaker__photo-3 speaker-photo-color" src="./assets/images/justin_weinstein.png" alt="Justin Weinstein">
+                    </div>
+                    <p class="panel__speaker__name">Justin Weinstein</p>
+                    <p class="panel__speaker__info">Senior Director,<br>Customer Experience<br><span class='panel__text_emphasis'>Giant Eagle, Inc.</span></p>
+                </div>
+                <div class="panel__speaker">
+                    <div class="speaker__photo__container">
+                        <img class="panel__speaker__photo panel__speaker__photo-4" src="./assets/images/amy_costigan.png" alt="Amy Costigan">
+                    </div>
+                    <p class="panel__speaker__name">Amy Costigan</p>
+                    <p class="panel__speaker__info">Managing Director, <br>Digital Marketing<br><span class='panel__text_emphasis'>United Airlines</span></p>
+                </div>
+                <div class="panel__speaker">
+                    <div class="speaker__photo__container">
+                        <img class="panel__speaker__photo panel__speaker__photo-5" src="./assets/images/christian_selchau_hansen.png" alt="Christian Selchau-Hansen">
+                    </div>
+                    <p class="panel__speaker__name">Christian Selchau-Hansen</p>
+                    <p class="panel__speaker__info">CEO<br>Co-Founder<br><span class='panel__text_emphasis'>Formation</span></p>
+                </div>
+            </div>
+            <div class="panel__meeting-date">
+                <p class="panel__meeting-date__text">Wednesday, May 19, 2021<br>11:00am PT</p>
+            </div>
+            <button class="panel__button-attend">I WANT TO ATTEND</button>
+        </section>
+        <section class="bottom-section">
+            <div class="logo-nav__container">
+                <img src="./assets/images/formation_logo.png" alt="Formation Logo" class="bottom-section__logo">
+                <nav class="site-nav">
+                    <a href="" class="site-nav__item">Product</a>
+                    <a href="" class="site-nav__item">what is dynoo</a>
+                    <a href="" class="site-nav__item">company</a>
+                    <a href="" class="site-nav__subitem">about</a>
+                    <a href="" class="site-nav__subitem">careers</a>
+                    <a href="" class="site-nav__subitem">contact</a>
+                    <a href="" class="site-nav__item">resourses</a>
+                    <a href="" class="site-nav__subitem">blog</a>
+                    <a href="" class="site-nav__subitem">white papers</a>
+                    <a href="" class="site-nav__subitem">events</a>
+                    <a href="" class="site-nav__subitem">case studies</a>                   
+                    <a href="" class="site-nav__item">industries</a>
+                    <a href="" class="site-nav__subitem">retail</a>
+                    <a href="" class="site-nav__subitem">grocery</a>
+                    <a href="" class="site-nav__subitem">restaurants</a>
+                    <a href="" class="site-nav__subitem">travel</a>
+                    <a href="" class="site-nav__subitem">hospitality</a>
+                    <a href="" class="site-nav__item">privacy policy</a>
+                    <a href="" class="site-nav__item">terms & conditions</a>
+                    <a href="" class="site-nav__item">sitemap</a>
+                </nav>
+            </div>
+            <div class="socials">
+                <a href=""><img src="./assets/images/logo_facebook.png" alt="facebook"></a>
+                <a href=""><img src="./assets/images/logo_twitter.png" alt="twitter"></a>
+                <a href=""><img src="./assets/images/logo_instagram.png" alt="instagram"></a>
+                <a href=""><img src="./assets/images/logo_linkedin.png" alt="linkedin"></a>
+            </div>
+            <div class="copyrights">
+                <p class="copyright_info">Copyright c 2021 Formation. Inc.<br/>All rights reserved</p>
+            </div>
+        </section>
+        <div class="finish-block"></div>
+    </div>
+</body>
+</html>
